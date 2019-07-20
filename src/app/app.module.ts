@@ -7,6 +7,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './router.module';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HeaderComponent } from './header/header.component';
     ContactComponent,
     ExperienceComponent,
     HeaderComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
